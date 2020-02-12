@@ -1,0 +1,337 @@
+@charset "utf-8";
+/*CSS document*/
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff2') format('woff2'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+
+}
+@font-face {
+     font-family: 'droid_serifregular';
+    src: url('DroidSerif-Regular-webfont.eot');
+    src: url('DroidSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSerif-Regular-webfont.woff2') format('woff2'),
+         url('DroidSerif-Regular-webfont.woff') format('woff'),
+         url('DroidSerif-Regular-webfont.ttf') format('truetype'),
+         url('DroidSerif-Regular-webfont.svg#droid_serifregular') format('svg');
+}
+@font-face {
+src:url('https://fonts.googleapis.com/css?family=Oswald');
+}
+#ensemble {
+	color: darkgrey;
+}
+#logo {
+	width: 10%;
+	margin-right: 80px;
+	padding-top: 20px;
+}
+#header {
+	width: 40%;
+}
+.grille, #grille1, #grille2 {
+	background-image: url("images/grille.png");
+	background-repeat: repeat, repeat, repeat;
+	width: 100%;
+	display: flex;
+}
+#grille1 {
+	height: 100px;
+}
+#head {
+	padding: 15px;
+	text-align: center;
+	color: darkgrey;
+	position:relative;
+	right: 50px;
+}
+#head h1 {
+	font-size: 15px;
+	font-family: Oswald;
+	color: darkgray;
+	position: relative;
+	right: 20px;
+}
+#head hr {
+	margin-left: 40px;
+	height: 7px;
+	background-color: orangered;
+	border: 0;
+	width: 125px;
+}
+#head1 {
+	padding: 15px;
+	text-align: center;
+	color: darkgrey;
+	position:relative;
+	right: 50px;
+}
+#head1 h1 {
+	font-size: 15px;
+	font-family: Oswald;
+	color: darkgray;
+	position: relative;
+}
+#head1 hr {
+	margin-left: 40px;
+	height: 7px;
+	background-color: orange;
+	border: 0;
+	width: 125px;
+}
+#head2 {
+	padding: 15px;
+	text-align: center;
+	color: darkgrey;
+	position:relative;
+	right: 50px;
+}
+#head2 h1 {
+	font-size: 15px;
+	font-family: Oswald;
+	color: darkgrey;
+	position: relative;
+	right: 6px;
+}
+#head2 hr {
+	margin-left: 40px;
+	height: 7px;
+	background-color: #9BBF3F;
+	border: 0px;
+	width: 125px;
+
+}
+#head3 {
+	padding: 15px;
+	text-align: center;
+	color: darkgrey;
+	position:relative;
+	right: 50px;
+}
+#head3 h1 {
+	font-size: 15px;
+	font-family: Oswald;
+	color: darkgrey;
+	position: relative;
+	right: 5px;
+}
+#head3 hr {
+	margin-left: 40px;
+	height: 7px;
+	background-color: #3F8EBF;
+	border: 0;
+	width: 125px;
+}
+#head4 {
+	padding: 15px;
+	text-align: center;
+	color: darkgrey;
+	position:relative;
+	right: 50px;
+}
+#head4 h1 {
+	font-size: 15px;
+	font-family: Oswald;
+	color: darkgrey;
+	position: relative;
+	right: 25px;
+
+}
+#head4 hr {
+	margin-left: 40px;
+	height: 7px;
+	background-color: #A93FBF;
+	border: 0;
+	width: 125px;
+}
+li {
+	list-style: none;
+	text-align: left;
+}
+ol {
+	list-style:none;
+}
+li {
+	margin-right: 15px;
+}
+.menu {
+	margin-right: 15px;
+	padding-bottom: 3px;
+	text-decoration: none; 
+	align-items: flex-end;
+	width: 300px;
+}
+#header {
+	list-style: none;
+ 	display: flex;
+ 	margin-right: 2em;
+ 	padding-bottom: 15px;
+}
+
+.separateur {
+	width: 100%;
+	height: 2px;
+	background-color: darkgrey;
+	margin: 5px 0;
+}
+iframe {
+	width: 700px;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
+h6 {
+	font-size: 20px;
+	font-style: italic;
+	display: flex;
+	margin: auto;
+	height: 25px;
+	color: darkgrey;
+	font-family: 'droid_sansregular';
+}
+article {
+	padding: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	margin-left: 20px;
+}
+aside {
+	font-size: 15px;
+	display: flex;
+	text-align: left;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 10px;
+
+}
+aside img {
+	margin-left: 5px;
+}
+#article {
+	list-style: none;
+ 	display: flex;
+ 	margin-right: 2em;
+ 	padding-bottom: 15px;
+}
+#aside {
+	padding-top: 20px;
+}
+section h2 {
+	color: #F59C37;
+	font-family: droid_serifregular;
+}
+table td {
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.accro {
+	border: 1px darkgrey solid;
+	border-radius: 1px;
+	padding: 5px;
+}
+#pied {
+	margin: auto;
+	width: 80%;
+	display:flex;
+	font-size: 13px;
+}
+#contact {
+	width: 25%;
+	padding: 15px;
+	margin-left: 10px;
+	text-align: left;
+	color: darkgrey;
+	flex-direction: column;
+}
+#billet {
+	width: 25%;
+	padding: 15px;
+	text-align: left;
+	color: darkgrey;
+	flex-direction: column;
+}
+#telphone {
+	width: 25%;
+	padding: 15px;
+	margin-left: 10px;
+	text-align: left;
+	flex-direction: column;
+}
+#com {
+	width: 25%;
+	padding: 15px;
+	text-align: left;
+	flex-direction: column;
+}
+#blabla {
+	padding: 15px;
+}
+footer h1 {
+	font-size: 15px;
+	font-family: droid_sansregular;
+}
+.grille2 {
+	background-image: url(images/grille.png);
+	background-repeat: repeat;
+	width: 100%;
+	display: flex;
+}
+section h3, .lire, footer h3 {
+	font-size: 10px;
+	font-family: droid_serifregular;
+
+}
+#pied li {
+	float: left;
+	flex-wrap: wrap;
+}
+
+.images {
+	width: 150px;	
+}
+
+li img {
+	float: left;
+}
+#presse {
+	font-size: 10px;
+}
+#bah {
+	display: flex;
+}
+#site {
+	flex-direction: row-reverse;
+	margin-left: 70%;
+}
+#titrecontact {
+	margin-left: 40px;
+}
+.ligne {
+ 	padding-bottom: 3px;
+ 	text-decoration: underline;
+
+}
+.ligne:hover {
+	color: black;
+	border-bottom: 1px black;
+	
+}
+.lire:hover {
+	color: black;
+ 	border-bottom: 1px black;
+ 	width: 20%;
+}
+#ligne:hover {
+	color: black;
+	border-bottom: 1px black;
+	width: 36%;
+}
+#aide, #mail {
+	display: flex;
+}
